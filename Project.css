@@ -1,0 +1,102 @@
+
+                @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+                
+                
+                * {
+                    font-family: 'Noto Sans KR', sans-serif;
+                }
+
+                body{margin: 0; overflow: hidden; }
+
+
+
+
+
+                
+
+
+
+                button{
+                    position:absolute;
+                    background-color: #fff;
+                    font-size: 14px;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.15);
+                    transition: all 0.5s ease-in-out;
+                }
+
+                .bt:hover {
+                    opacity: 0.7;
+                    background-color: rgb(54, 54, 224); 
+                    color: white;
+                    border: none;
+                }
+
+
+                #btn1 {
+                    top:24px;
+                    left: 24px;
+                }
+                #btn2 {
+                    top: 72px;
+                    left: 24px;
+                }
+
+                #btn3 {
+                    top: 120px;
+                    left: 24px;
+                }
+
+                #btn4 {
+                    top: 168px;
+                    left: 24px;
+                }
+
+                #btn5 {
+                    top: 216px;
+                    left: 24px;
+                }
+
+                #btn6 {
+                    top: 264px;
+                    left: 24px;
+                }
+
+                #btn7 {
+                    bottom: 24px;
+                    left: 24px;
+                }
+
+
+                .content {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    text-align: center;
+                    z-index: 100;
+                    display:block;
+                    background-color: black;
+                    width: 30%;
+                    height: 35%;
+                    margin-right: auto;
+                    margin-left: auto;
+                    color: white;
+                    opacity: 0.7;
+                    padding: 0px 20px 10px 20px;
+                    overflow-y: auto;
+                }
+
+                .content p {
+                    opacity: 1;
+                }
+
+
+                #sound {
+                    position: absolute;
+                    right:24px;
+                    top:24px;
+                }
+
+                
